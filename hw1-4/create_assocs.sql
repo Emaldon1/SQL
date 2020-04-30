@@ -1,0 +1,1 @@
+create table Assocs(measure VARCHAR, snp_id VARCHAR, effect_allele VARCHAR, effect_allele_frequency FLOAT, PRIMARY KEY(measure,snp_id));

@@ -1,0 +1,1 @@
+DELETE FROM assocs WHERE effect_allele_frequency IS Null AND ((measure = 'Self Well-Being') OR (measure = 'Life Satisfaction'));

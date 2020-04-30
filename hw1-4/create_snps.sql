@@ -1,0 +1,1 @@
+create table snps(snp_id VARCHAR PRIMARY KEY, chromosome INTEGER, position BIGINT, gene_symbol VARCHAR);

@@ -1,0 +1,1 @@
+SELECT measure, gene_symbol, effect_allele_frequency FROM assocs, snps WHERE assocs.snp_id = snps.snp_id AND effect_allele_frequency > 0.7 AND gene_symbol IS NOT Null ORDER BY measure ASC, effect_allele_frequency DESC LIMIT 25;
